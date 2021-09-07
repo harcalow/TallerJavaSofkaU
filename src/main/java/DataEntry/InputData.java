@@ -21,5 +21,9 @@ public class InputData {
             return false;
         }
     }
+    public String intext(){
+        Scanner scan = new Scanner(System.in);
+        return scan.nextLine();
+    }
 
 }
