@@ -12,7 +12,7 @@ public class InputData {
         return Double.parseDouble(valor);
     }
 
-    public boolean isNumeric(String cadena) {
+    private boolean isNumeric(String cadena) {
         try {
             Double.parseDouble(cadena);
             return true;
@@ -23,7 +23,23 @@ public class InputData {
     }
     public String intext(){
         Scanner scan = new Scanner(System.in);
-        return scan.nextLine();
+        String text="";
+        while (true) {
+            text=scan.nextLine();
+            if (this.thereIsText(text)) {
+                break;
+            } else {
+                System.out.println("Es necesario ingresar lo solicitado");
+            }
+        }
+        return text;
+    }
+    private boolean thereIsText(String text){
+        if(text.length()>0){
+            return true;
+        }else{
+            return false;
+        }
     }
 
 }

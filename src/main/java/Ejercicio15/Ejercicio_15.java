@@ -45,6 +45,8 @@ public class Ejercicio_15 extends DataEntry.InputData {
                         System.out.println("7-VER CATEGORIA DE LAS PELICULAS DE LOS ACTORES\n");
                         break;
                 }
+            }else{
+                System.out.println("OPCION INCORRECTO");
             }
         }
     }
