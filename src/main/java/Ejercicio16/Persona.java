@@ -1,6 +1,6 @@
 package Ejercicio16;
 public class Persona {
-    private char sexoDefecto='H';
+    private static final char sexoDefecto='H';
     private String nombre;
     private int edad;
     private String DNI;
@@ -8,7 +8,7 @@ public class Persona {
     private double peso;
     private double altura;
     public Persona(){
-        this("", 0,'H', 0, 0);
+        this("", 0,sexoDefecto, 0, 0);
     }
     public Persona(String nombre,int edad, char sexo){
         this(nombre, edad,sexo, 0, 0);
