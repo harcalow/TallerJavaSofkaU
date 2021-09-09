@@ -72,9 +72,9 @@ public class Persona {
        }
 
     private char generaLetraDNI(int res) {
-        char letras[] = {'T', 'R', 'W', 'A', 'G', 'M', 'Y',
-                'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z',
-                'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
+        char letras[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G',
+                'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+                'P', 'Q', 'R', 'S', 'T', 'W', 'V', 'X'};
         return letras[res];
     }
 
