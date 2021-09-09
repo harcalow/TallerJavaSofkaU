@@ -4,12 +4,12 @@ import javax.xml.crypto.Data;
 
 public class Ejercicio_16 extends DataEntry.InputData {
     public void run(){
-        System.out.println("Ejercicio 16");
+        System.out.println("******** Ejercicio 16 ********");
         System.out.println("Ingresa Nombre");
         String nombre=intext();
         System.out.println("Ingresa la edad en años");
 
-        int edad=(int)inValue("edad");
+        int edad=(int)inValue();
         char sexo=' ';
         while(true){
             System.out.println("Ingresa sexo H: hombre M: mujer");
@@ -23,9 +23,9 @@ public class Ejercicio_16 extends DataEntry.InputData {
             }
         }
         System.out.println("Ingresa Peso en Kg");
-        double peso=inValue("Peso");
+        double peso=inValue();
         System.out.println("Ingresa Altura en metros");
-        double altura=inValue("altura");
+        double altura=inValue();
         Persona persona1 =new Persona(nombre,edad,sexo,peso,altura);
         Persona persona2 =new Persona(nombre,edad,sexo);
         Persona persona3 =new Persona();
@@ -54,6 +54,7 @@ public class Ejercicio_16 extends DataEntry.InputData {
         System.out.println(persona2.toString());
         System.out.println(persona3.toString());
 
+        System.out.println("*****************************");
     }
     public String pesoIdeal(double valor){
         if (valor ==1){

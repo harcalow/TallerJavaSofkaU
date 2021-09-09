@@ -2,8 +2,8 @@ package Ejercicio11;
 
 public class Ejercicio_11 extends DataEntry.InputData {
     public void run(){
-        System.out.println("Ejercicio 11");
-        System.out.println("Escribe la frase a revisar");
+        System.out.println("******** Ejercicio 11 ********");
+        System.out.println("Escribe la frase a revisar la cantidad de vocales");
         String text=intext();
         int a=0,e=0,i=0,o=0,u=0;
         for (int j=0;j<text.length();j++){
@@ -21,6 +21,7 @@ public class Ejercicio_11 extends DataEntry.InputData {
                 "Catidad de o:"+o+ "\n" +
                 "Catidad de u:"+u+ "\n" +
                 "");
+        System.out.println("*****************************");
     }
 
 }

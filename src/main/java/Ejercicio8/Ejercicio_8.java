@@ -3,7 +3,7 @@ package Ejercicio8;
 
 public class Ejercicio_8 extends DataEntry.InputData{
     public void run(){
-        System.out.println("Ejercicio 8");
+        System.out.println("******** Ejercicio 8 ********");
         String []week= new String[]{"lunes","martes","miercoles","jueves","viernes","sabado","domingo"};
         System.out.println("Ingresa dia de la semana para verificar si es laboral o no \n" +
                 "Solo validos ");
@@ -47,6 +47,7 @@ public class Ejercicio_8 extends DataEntry.InputData{
                 System.out.println("Día no laboral");
                 break;
         }
+        System.out.println("*****************************");
     }
 
 }

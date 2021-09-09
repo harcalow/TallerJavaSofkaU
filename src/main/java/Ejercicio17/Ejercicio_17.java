@@ -2,7 +2,7 @@ package Ejercicio17;
 
 public class Ejercicio_17 {
     public void run(){
-        System.out.println("Ejercicio 17");
+        System.out.println("******** Ejercicio 17 ********");
 
         //Creamos un array de Electrodomesticos
         Electrodomestico  electrodomesticos[]=new Electrodomestico[10];
@@ -39,6 +39,6 @@ public class Ejercicio_17 {
         System.out.println("El precio de las lavadoras es de "+sumadeLavadoras);
         System.out.println("El precio de las televisiones es de "+sumadeTelevisiones);
 
-
+        System.out.println("*****************************");
     }
 }

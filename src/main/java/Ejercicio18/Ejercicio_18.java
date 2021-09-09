@@ -2,11 +2,11 @@ package Ejercicio18;
 
 public class Ejercicio_18{
     public void run(){
-        //Creamos dos arrays de cada tipo de objeto
+        System.out.println("******** Ejercicio 18 ********");
         Serie series[]=new Serie[5];
         Videojuego videojuegos[]=new Videojuego[5];
 
-        //Creamos un objeto en cada posicion del array
+
         series[0]=new Serie("Expediente X", 11,"Ciencia ficcion","Chris Carter");
         series[1]=new Serie("Friends", 10, "Humor", "David Crane y Marta Kauffman");
         series[2]=new Serie("The Walking Dead", 11 ,"Humor", "Seth MacFarlane");
@@ -55,5 +55,6 @@ public class Ejercicio_18{
         }
         System.out.println(videojuegoMayor);
         System.out.println(serieMayor);
+        System.out.println("*****************************");
     }
 }

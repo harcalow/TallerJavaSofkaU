@@ -2,6 +2,7 @@ package Ejercicio12;
 
 public class Ejercicio_12 extends DataEntry.InputData{
     public void run(){
+        System.out.println("******** Ejercicio 12 ********");
         System.out.println("Ejercicio 12 \n" +
                 "Comparacion de plabras");
         System.out.println("Ingresa primera palabra");
@@ -31,7 +32,6 @@ public class Ejercicio_12 extends DataEntry.InputData{
 
             System.out.println("No son iguales y las diferencias son "+differences);
         }
-
+        System.out.println("*****************************");
     }
-
 }

@@ -2,17 +2,17 @@ package DataEntry;
 import java.util.Scanner;
 
 public class InputData {
-    public double inValue(String message){
+    public double inValue(){
         String valor="";
-        Scanner scan = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in);
         do {
-            System.out.println("Ingresa el valor de "+message+": ");
-            valor = scan.nextLine();
+            System.out.println("Ingresa el valor Solicitado: ");
+            valor = intext();
         }while (!this.isNumeric(valor));
         return Double.parseDouble(valor);
     }
 
-    private boolean isNumeric(String cadena) {
+    private  boolean isNumeric(String cadena) {
         try {
             Double.parseDouble(cadena);
             return true;
@@ -21,6 +21,8 @@ public class InputData {
             return false;
         }
     }
+
+
     public String intext(){
         Scanner scan = new Scanner(System.in);
         String text="";

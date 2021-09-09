@@ -4,7 +4,7 @@ import javax.xml.crypto.Data;
 
 public class Ejercicio_15 extends DataEntry.InputData {
     public void run(){
-        System.out.println("Ejercicio 15");
+        System.out.println("******** Ejercicio 15 ********");
         boolean exit=true;
         while(exit) {
             String menu = "****** GESTION CINEMATOGRAFICA ********\n" +
@@ -18,7 +18,7 @@ public class Ejercicio_15 extends DataEntry.InputData {
                     "8-SALIR";
             System.out.println(menu);
             System.out.println("Selecciona el item");
-            int item = (int) inValue(" item ");
+            int item = (int) inValue();
             if (item == 8) {
                 exit = false;
             }else if((item>0)&&(item<8)){
@@ -49,5 +49,6 @@ public class Ejercicio_15 extends DataEntry.InputData {
                 System.out.println("OPCION INCORRECTO");
             }
         }
+        System.out.println("*****************************");
     }
 }

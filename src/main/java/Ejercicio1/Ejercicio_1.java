@@ -1,6 +1,7 @@
 package Ejercicio1;
 public class Ejercicio_1 {
         public void run(){
+            System.out.println("******** Ejercicio 1 ********");
             double x,y;
             x=20;
             y=10;
@@ -12,5 +13,6 @@ public class Ejercicio_1 {
             }else{
                 System.out.println("x :"+x+" son iguales y :"+y);
             }
+            System.out.println("*****************************");
         }
 }
